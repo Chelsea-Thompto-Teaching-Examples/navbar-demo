@@ -1,38 +1,43 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background:url(
-data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQoU2NkQAMvv9//L86pyIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDxtyfHjLg71QAAAABJRU5ErkJggg==
-   ) repeat;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQoU2NkQAMvv9//L86pyIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDxtyfHjLg71QAAAABJRU5ErkJggg==
+) repeat;
 }
+
 a {
   color: #0050C1;
 }
+
 a:hover, a:visited:hover {
   color: #50C100;
 }
+
 a:visited {
   color: #00B0C1;
 }
+
 h1 {
   font-style: italic;
   color: #50C100;
-  
 }
 
 h1:hover {
   animation-name: color_change;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
 h2 {
   font-style: bold;
   color: #00B0C1;
 }
+
 h3 {
   color: #0050C1;
 }
+
 h4 {
   text-decoration: underline;
 }
@@ -49,8 +54,7 @@ canvas {
   height: 500px;
 }
 
-/* Navigation Styling for home page. */
-
+/* Navigation Styling for Home page. */
 .nav-1 {
   margin: auto;
   text-align: center;
@@ -67,14 +71,14 @@ canvas {
   padding-right: 20px;
 }
 
-/* Navigation Styling for gallery page. */
-
+/* Navigation Styling for Gallery page. */
 .nav-2 {
   margin: auto;
   text-align: left;
   padding-bottom: 20px;
   position: absolute;
-  top: 0px; left: 0px;
+  top: 0px;
+  left: 0px;
 }
 
 .nav-2 h1 {
@@ -89,8 +93,7 @@ canvas {
   padding-bottom: 10px;
 }
 
-/* Navigation Styling for about page. */
-
+/* Navigation Styling for About page. */
 .nav-3 {
   margin-left: auto;
   margin-right: auto;
@@ -111,14 +114,14 @@ canvas {
   padding-right: 20px;
 }
 
-/* Navigation Styling for gallery page. */
-
+/* Navigation Styling for Contact page. */
 .nav-4 {
   margin: auto;
   text-align: right;
   padding-bottom: 20px;
   position: fixed;
-  top: 0px; left: 80% ;
+  top: 0px;
+  left: 80%;
   max-width: 15%;
 }
 
@@ -134,24 +137,52 @@ canvas {
 }
 
 /* Bonus CSS Color Plus Animation */
-
 @-webkit-keyframes color_change {
-	from { color: #50C100; }
-	to { color: #0050C1; }
+  from {
+    color: #50C100;
+  }
+
+  to {
+    color: #0050C1;
+  }
 }
+
 @-moz-keyframes color_change {
-  from { color: #50C100; }
-	to { color: #0050C1; }
+  from {
+    color: #50C100;
+  }
+
+  to {
+    color: #0050C1;
+  }
 }
+
 @-ms-keyframes color_change {
-  from { color: #50C100; }
-	to { color: #0050C1; }
+  from {
+    color: #50C100;
+  }
+
+  to {
+    color: #0050C1;
+  }
 }
+
 @-o-keyframes color_change {
-  from { color: #50C100; }
-	to { color: #0050C1; }
+  from {
+    color: #50C100;
+  }
+
+  to {
+    color: #0050C1;
+  }
 }
+
 @keyframes color_change {
-  from { color: #50C100; }
-	to { color: #0050C1; }
+  from {
+    color: #50C100;
+  }
+
+  to {
+    color: #0050C1;
+  }
 }
