@@ -43,8 +43,10 @@ h4 {
 }
 
 main {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+  padding-right: 20%;
   max-width: 600px;
 }
 
